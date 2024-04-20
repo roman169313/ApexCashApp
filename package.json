@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
+    "start": "npx expo start",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web"
@@ -17,19 +17,16 @@
     "@react-navigation/bottom-tabs": "^6.5.20",
     "@react-navigation/native": "^6.1.17",
     "@react-navigation/stack": "^6.3.29",
-    "@thirdweb-dev/react-native": "^0.7.34",
-    "@thirdweb-dev/react-native-compat": "^0.7.34",
-    "@thirdweb-dev/sdk": "^4.0.63",
-    "@walletconnect/react-native-compat": "^2.12.0",
+    "@thirdweb-dev/react-native": "^0.7.7-beta-5182f2a0b1fb748b3dc223c0bd076173af0596f8-20240304192632",
+    "@thirdweb-dev/react-native-compat": "^0.7.35",
     "ethers": "^5.7.2",
     "expo": "^50.0.15",
-    "expo-application": "~5.8.3",
+    "expo-application": "~5.8.4",
     "expo-contacts": "^12.8.2",
-    "expo-crypto": "~12.8.1",
     "expo-image-picker": "^14.7.1",
     "expo-splash-screen": "~0.26.4",
     "expo-status-bar": "~1.11.1",
-    "expo-system-ui": "^2.9.3",
+    "expo-system-ui": "~2.9.4",
     "node-libs-browser": "^2.2.1",
     "react": "18.2.0",
     "react-native": "0.73.6",
@@ -44,8 +41,7 @@
     "react-native-reanimated": "~3.6.2",
     "react-native-safe-area-context": "4.8.2",
     "react-native-screens": "~3.29.0",
-    "react-native-svg": "14.1.0",
-    "thirdweb": "^5.6.0"
+    "react-native-svg": "14.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

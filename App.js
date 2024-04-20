@@ -74,7 +74,7 @@ const App = () => {
   return (
     <ThirdwebProvider
     activeChain={"polygon"}
-    clientId={"7870cadedc26af733201b99959e5119e"}
+    clientId={"27a42456202e1c20369e5debaf4a805a"}
   >
     <NavigationContainer>
       <Stack.Navigator screenOptions={{ headerShown: false }}>
